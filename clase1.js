@@ -21,7 +21,7 @@ alert(cubo(5))
 function operación (x, y)
 {
     let numero3 = x * x - x - y
-    return 'el resultado de x elevado al cuadrado - x - 10 es (la x equivale a 20) ' + numero3
+    return 'el resultado de x elevado al cuadrado - x - 10 es ' + numero3 + ' (la x equivale a 20)'
 }
 console.log(operación (20, 10))
 
@@ -30,7 +30,7 @@ console.log(operación (20, 10))
 function operación2 (a, b, c)
 {
     let numero4 = (a - b) * c
-    return 'el resultado de (x - 3) * 2 es (la x equivale a 5) ' + numero4
+    return 'el resultado de (x - 3) * 2 es ' + numero4 + ' (la x equivale a 5)'
 }
 alert(operación2 (5, 3, 2))
 
@@ -39,7 +39,7 @@ alert(operación2 (5, 3, 2))
 function operación3 (x, y)
 {
     let numero5 = x * x * x + y
-    return 'el resultado de x * x elevado al cuadrado + 20 es (la x equivale a 3) ' + numero5
+    return 'el resultado de x * x elevado al cuadrado + 20 es ' + numero5 + ' (la x equivale a 3)'
 }
 console.log(operación3 (3, 20))
 
@@ -48,7 +48,26 @@ console.log(operación3 (3, 20))
 function operación4 (a, b, c)
 {
     let numero6 = (a/b) + c 
-    return 'el resultado de (x/2) + 5 es '  + numero6 + '' + '(la x equivale a 8)'
+    return 'el resultado de (x/2) + 5 es '  + numero6 + ' (la x equivale a 8)'
 }
 alert(operación4 (8, 2, 5))
+
+//e
+
+function operación5 (x, y)
+{
+    let numero7 = x * x * x + x * x + y
+    return 'el resultado de x elevado al cubo + x elevado al cuadrado + 10 es ' + numero7 + ' (la x equivale a 6)'
+}
+console.log(operación5 (6, 10))
+
+//f
+
+function operación6 (a, b, c)
+{
+    let numero8 = (a * b) * c
+    return 'el resultado de (x * 10) * 5 es '  + numero8 + ' (la x equivale a 4)'
+}
+alert(operación6 (4, 10, 5))
+
 
